@@ -1,0 +1,53 @@
+body {
+    background-color: #fff;
+}
+
+/* ===================================
+=============== Navbar ===============
+=================================== */
+.navbar {
+    .navbar-nav {
+        .nav-item {
+            margin: 5px;
+        }
+
+        .nav-link {
+            border-radius: 0.25rem;
+            padding: 0.5rem;
+
+            &.active {
+                background-color: #2196F3;
+                color: #fff;
+            }
+
+            &:hover {
+                background-color: #444c52;
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+// Features
+#features {
+
+    .box {
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 0.25rem;
+        min-height: 100px;
+    }
+
+}
+
+
+#blog {
+    background-color: #f1f1f1;
+
+    .card {
+        border: none;
+        max-width: 18rem;
+        margin: 0 auto;
+    }
+}
